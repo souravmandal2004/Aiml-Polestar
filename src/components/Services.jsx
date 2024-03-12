@@ -10,7 +10,7 @@ import partnershipImg from "../assets/partnershipImg.jpg";
 
 function Services() {
     return (
-        <div name="service" className='bg-[#0a192f] w-full  overflow-x-hidden '>
+        <div name="service" className='bg-[#0a192f] w-full overflow-x-hidden'>
 
             {/* title and image */}
             <div className='mt-24 flex flex-col md:flex-row gap-12 max-w-[1000px] mx-auto items-center'>
