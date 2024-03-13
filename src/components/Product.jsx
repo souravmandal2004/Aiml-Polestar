@@ -134,7 +134,7 @@ function Product() {
                             <div className='text-white p-[2em] flex justiy-center items-start flex-col gap-y-3'>
                                         <img src={useCasesImg} loading='lazy' />
                                         <h3 className='text-2xl text-[#de909e] font-semibold'>Empowered User Experience</h3>
-                                        <p>Automate movement of money between e-commerce platforms, aggregators, merchants, logistic partners, payment gateways, etc. lorem150</p>
+                                        <p>Automate movement of money between e-commerce platforms, aggregators, merchants, logistic partners, payment gateways, etc.</p>
                             </div>
                         </div>
                     </div>

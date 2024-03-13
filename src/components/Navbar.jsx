@@ -19,27 +19,27 @@ function Navbar() {
 
             {/* menu */}
             <ul className='hidden md:flex gap-8 cursor-pointer'>
-                <li>
+                <li className="text-3xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
                     <Link to='home' smooth={true} duration={800}>
                         Home
                     </Link>
                 </li> 
-                <li>
+                <li className="text-3xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
                     <Link to='service' smooth={true} duration={800}>
                         Service
                     </Link>
                 </li>
-                <li>
+                <li className="text-3xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
                     <Link to='product' smooth={true} duration={800}>
                         Product
                     </Link>
                 </li>
-                <li>
+                <li className="text-3xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
                     <Link to='about' smooth={true} duration={800}>
                         About
                     </Link>
                 </li>
-                <li>
+                <li className="text-3xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300" >
                     <Link to='contact' smooth={true} duration={800}>
                         Contact
                     </Link>

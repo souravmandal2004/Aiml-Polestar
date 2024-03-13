@@ -23,9 +23,6 @@ function Home() {
                     <div className='max-w-full md:w-[1600px] h-auto mx-auto'>
                     </div>
                 </div>
-
-                
-                
             </div>
 
         </div>

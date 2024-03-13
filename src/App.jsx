@@ -4,6 +4,8 @@ import Navbar from '../src/components/Navbar';
 import Home from '../src/components/Home';
 import Services from "../src/components/Services";
 import Product from './components/Product';
+import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
     <Home />
     <Services />
     <Product />
+    <About />
+    <Contact />
 
   </div>
   )
