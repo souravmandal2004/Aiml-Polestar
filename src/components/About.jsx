@@ -31,54 +31,57 @@ function About() {
             {/* Our team  */}
 
             <div className='mt-36 max-w-[1000px] mx-auto'>
+                <div className='flex justify-center items-center mt-16 mb-16'>
+                        <h3 className='text-5xl font-semibold text-white'>Our Team Members</h3>
+                </div>
                 <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
 
                     {/* team member-1  */}
                     <div className='border-2 border-white rounded-lg text-white p-[2em] flex justiy-center items-start flex-col gap-y-3 hover:bg-[#214392] transition duration-300 cursor-pointer'>
                         {/* image */}
-                        <div>
+                        <div className='flex justify-center items-center h-full w-full'>
                             <img src={firstTeamMember} alt=""  className='rounded-full w-[100px] h-[100px]'/>
                         </div>
 
                         {/* heading/name  */}
-                        <h2 className='text-3xl font-bold text-[#de909e]'>Bijan Dash</h2>
+                        <h2 className='text-3xl font-bold text-[#de909e] mx-auto'>Bijan Dash</h2>
 
                         {/* Role */}
-                        <h3 className='font-semibold text-xl'>CEO and CO-Founder</h3>
+                        <h3 className='font-semibold text-xl mx-auto'>CEO and CO-Founder</h3>
 
-                        <p>Responsible for driving innovation, forging relationship & successful delivery of data projects across client base 20 years of experience with track record of successfully setting up Data Science functions in Goldman Sachs, JP Morgan Chase & Qualcomm; US Patent Holder.</p>
+                        <p className='w-full leading-6 mx-auto'>Responsible for driving innovation, forging relationship & successful delivery of data projects across client base 20 years of experience with track record of successfully setting up Data Science functions in Goldman Sachs, JP Morgan Chase & Qualcomm; US Patent Holder.</p>
                     </div>
                     
                     {/* team member-2  */}
                     <div className='border-2 border-white rounded-lg text-white p-[2em] flex justiy-center items-start flex-col gap-y-3 hover:bg-[#214392] transition duration-300 cursor-pointer'>
                         {/* image */}
-                        <div>
+                        <div className='flex justify-center items-center h-full w-full'>
                             <img src={firstTeamMember} alt=""  className='rounded-full w-[100px] h-[100px]'/>
                         </div>
 
                         {/* heading/name  */}
-                        <h2 className='text-3xl font-bold text-[#de909e]'>Bijan Dash</h2>
+                        <h2 className='text-3xl font-bold text-[#de909e] mx-auto'>Bijan Dash</h2>
 
                         {/* Role */}
-                        <h3 className='font-semibold text-xl'>CEO and CO-Founder</h3>
+                        <h3 className='font-semibold text-xl mx-auto'>CEO and CO-Founder</h3>
 
-                        <p>Responsible for driving innovation, forging relationship & successful delivery of data projects across client base 20 years of experience with track record of successfully setting up Data Science functions in Goldman Sachs, JP Morgan Chase & Qualcomm; US Patent Holder.</p>
+                        <p className='w-full leading-6 mx-auto'>Responsible for driving innovation, forging relationship & successful delivery of data projects across client base 20 years of experience with track record of successfully setting up Data Science functions in Goldman Sachs, JP Morgan Chase & Qualcomm; US Patent Holder.</p>
                     </div>
 
                     {/* team member-3  */}
                     <div className='border-2 border-white rounded-lg text-white p-[2em] flex justiy-center items-start flex-col gap-y-3 hover:bg-[#214392] transition duration-300 cursor-pointer'>
                         {/* image */}
-                        <div>
+                        <div className='flex justify-center items-center h-full w-full'>
                             <img src={firstTeamMember} alt=""  className='rounded-full w-[100px] h-[100px]'/>
                         </div>
 
                         {/* heading/name  */}
-                        <h2 className='text-3xl font-bold text-[#de909e]'>Bijan Dash</h2>
+                        <h2 className='text-3xl font-bold text-[#de909e] mx-auto'>Bijan Dash</h2>
 
                         {/* Role */}
-                        <h3 className='font-semibold text-xl'>CEO and CO-Founder</h3>
+                        <h3 className='font-semibold text-xl mx-auto'>CEO and CO-Founder</h3>
 
-                        <p>Responsible for driving innovation, forging relationship & successful delivery of data projects across client base 20 years of experience with track record of successfully setting up Data Science functions in Goldman Sachs, JP Morgan Chase & Qualcomm; US Patent Holder.</p>
+                        <p className='w-full leading-6 mx-auto'>Responsible for driving innovation, forging relationship & successful delivery of data projects across client base 20 years of experience with track record of successfully setting up Data Science functions in Goldman Sachs, JP Morgan Chase & Qualcomm; US Patent Holder.</p>
                     </div>
 
 

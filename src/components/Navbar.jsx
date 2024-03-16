@@ -2,7 +2,8 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes} from "react-icons/fa";
-import Logo from "../assets/logo.png";
+// import Logo from "../assets/logo.png";
+import Logo from "../assets/AIMLPolestarLogo1.svg";
 
 function Navbar() {
 
@@ -15,6 +16,7 @@ function Navbar() {
             <div className='mt-8'>
                 <img src={Logo} alt='Logo Image' style={{ width: '250px' }} />
             </div>
+
 
 
             {/* menu */}
