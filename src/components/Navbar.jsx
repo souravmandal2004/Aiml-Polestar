@@ -1,9 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-scroll";
-import { FaBars, FaTimes} from "react-icons/fa";
-// import Logo from "../assets/logo.png";
-import Logo from "../assets/AIMLPolestarLogo1.svg";
+import { FaBars, FaTimes } from "react-icons/fa";
+import Logo from "../assets/output.png";
 
 function Navbar() {
 
@@ -11,10 +10,13 @@ function Navbar() {
     const handleClick = () => setNav(!nav);
     return (
 
-        <div className='w-full h-[80px] flex justify-around items-center px-4  bg-[#0a192f] text-gray-300 fixed'>
+        <div className='w-full h-[90px] flex justify-around items-center px-4  bg-[#0a192f] text-gray-300 fixed'>
 
-            <div className='mt-8'>
-                <img src={Logo} alt='Logo Image' style={{ width: '250px' }} />
+            {/* Logo  */}
+            <div className='cursor-pointer mt-2'>
+                <Link to='home' smooth={true} duration={800}>
+                    <img src={Logo} alt='Logo Image' style={{ width: '130px' }} />
+                </Link>
             </div>
 
 
@@ -25,22 +27,33 @@ function Navbar() {
                     <Link to='home' smooth={true} duration={800}>
                         Home
                     </Link>
-                </li> 
-                <li className="text-3xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
-                    <Link to='service' smooth={true} duration={800}>
-                        Service
-                    </Link>
                 </li>
-                <li className="text-3xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
-                    <Link to='product' smooth={true} duration={800}>
-                        Product
-                    </Link>
-                </li>
+
                 <li className="text-3xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
                     <Link to='about' smooth={true} duration={800}>
                         About
                     </Link>
                 </li>
+
+                <li className="text-3xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
+                    <Link to='product' smooth={true} duration={800}>
+                        Product
+                    </Link>
+                </li>
+
+                <li className="text-3xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
+                    <Link to='service' smooth={true} duration={800}>
+                        Service
+                    </Link>
+                </li>
+
+                <li className="text-3xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
+                    <Link to='training' smooth={true} duration={800}>
+                        Training
+                    </Link>
+                </li>
+
+
                 <li className="text-3xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300" >
                     <Link to='contact' smooth={true} duration={800}>
                         Contact
@@ -66,6 +79,21 @@ function Navbar() {
                         Home
                     </Link>
                 </li>
+
+                <li className='py-6 text-4xl'>
+                    {' '}
+                    <Link onClick={handleClick} to='about' smooth={true} duration={800}>
+                        About us
+                    </Link>
+                </li>
+
+                <li className='py-6 text-4xl'>
+                    {' '}
+                    <Link onClick={handleClick} to='product' smooth={true} duration={800}>
+                        Product
+                    </Link>
+                </li>
+
                 <li className='py-6 text-4xl'>
                     {' '}
                     <Link onClick={handleClick} to='service' smooth={true} duration={800}>
@@ -74,16 +102,12 @@ function Navbar() {
                 </li>
                 <li className='py-6 text-4xl'>
                     {' '}
-                    <Link onClick={handleClick} to='product' smooth={true} duration={800}>
-                        Product
+                    <Link onClick={handleClick} to='training' smooth={true} duration={800}>
+                        Training
                     </Link>
                 </li>
-                <li className='py-6 text-4xl'>
-                    {' '}
-                    <Link onClick={handleClick} to='about' smooth={true} duration={800}>
-                        About us
-                    </Link>
-                </li>
+                
+                
                 <li className='py-6 text-4xl'>
                     {' '}
                     <Link onClick={handleClick} to='contact' smooth={true} duration={800}>

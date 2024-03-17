@@ -1,24 +1,27 @@
-import React from 'react'
+import React from 'react';
+import { MdOutlineLocationOn } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 
 function Contact() {
     return (
-        <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4'>
-
-            <form method='POST' action="" className='flex flex-col max-w-[600px] w-full'>
-
-                <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300'>Contact</p>
-                    <p className='text-gray-300 py-4'>// Submit the form below or shoot us an email - email id</p>
+        <div name='contact' className='bg-[#0a192f] w-full overflow-x-hidden h-screen'>
+            <div className='max-w-[1600px] mx-auto mt-36 grid grid-cols-1 sm:grid-cols-2 gap-6'>
+                {/* address */}
+                <div className='text-white max-w-[800px] bg-[#214392] flex flex-col justify-center items-center p-[2em] rounded-lg gap-6 hover:bg-[#0A192F] transition-all duration-300'>
+                    <MdOutlineLocationOn size={50} color='#B7094C'/>
+                    <h3 className='font-bold text-2xl'>Our Branches</h3>
+                    <p className='text-xl font-semibold'>#2-56/2/19, 3rd Floor, Vijaya Towers, Ayyappa Society 100ft Road, Madhapur, Hyderabad, Telangana 500081</p>
                 </div>
 
-                <input className='bg-[#ccd6f6] p-2' type="text" placeholder='Name' name='name' required />
-                <input className='my-4 p-2 bg-[#ccd6f6]' type="email" placeholder='Email' name='email' required />
-                <textarea className='bg-[#ccd6f6] p-2' name="message" rows="10" placeholder='Message'></textarea>
-                <button className='text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center'>Let's Work With Us</button>
+                {/* email  */}
+                <div className='text-white bg-[#214392] max-w-[800px] flex flex-col justify-center items-center p-[2em] rounded-lg gap-6 hover:bg-[#0A192F] transition-all duration-300'>
+                    <MdEmail size={50} color='#B7094C'/>
+                    <h3 className='text-2xl font-bold'>Email</h3>
+                    <p className='font-semibold text-xl text-center'>aimlpolestar@gmail.com</p>
+                </div>
+            </div>
 
-            </form>
         </div>
     );
 }
-
 export default Contact;

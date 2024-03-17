@@ -6,6 +6,7 @@ import Services from "../src/components/Services";
 import Product from './components/Product';
 import About from './components/About';
 import Contact from './components/Contact';
+import Training from './components/Training';
 
 function App() {
 
@@ -14,9 +15,10 @@ function App() {
 
     <Navbar />
     <Home />
-    <Services />
-    <Product />
     <About />
+    <Product />
+    <Services />
+    <Training />
     <Contact />
 
   </div>
