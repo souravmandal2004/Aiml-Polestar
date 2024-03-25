@@ -14,11 +14,11 @@ function About() {
     return (
         <div name="about" className='bg-[#0a192f] w-full overflow-x-hidden'>
 
-            <div className='flex bg-black mt-24 '>
+            <div className='flex bg-black mt-24 h-screen justify-evenly'>
                 <div className='flex justify-center items-center'>
-                    <h3 className='text-white text-9xl font-extrabold p-52'>ABOUT US</h3>
+                    <h3 className='text-white text-7xl font-extrabold'>ABOUT US</h3>
                 </div>
-                <img src={aboutUsImg} alt="Image of about us page" />
+                <img src={aboutUsImg} alt="Image of about us page" loading='lazy' className='w-[1000px] '/>
             </div>
 
             {/* Our Values  */}

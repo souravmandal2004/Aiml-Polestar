@@ -5,8 +5,8 @@ function Training() {
         <div name="training" className='bg-[#0a192f] w-full overflow-x-hidden'>
             {/* AiML training  */}
             <div className='mt-36 max-w-[1000px] mx-auto'>
-                <h3 className='text-5xl text-[#de909e] flex justify-center items-center mb-12 font-bold'>AIML Training</h3>
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
+            <h3 className='text-5xl text-white flex justify-center items-center mt-36 underline mb-24 font-bold'>TRAININGS</h3>
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 MT-24 gap-6'>
 
                     {/* first  */}
                     <div className='bg-[#5A9BD5] border-white border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
@@ -64,10 +64,10 @@ function Training() {
                     <div className='border-white bg-[#62B247] border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
                         <p className='text-white font-semibold text-xl'>Cloud Computing with AWS/Azure/GCP</p>
                     </div>
-                    {/* 15  */}
+                    {/* 15 
                     <div className='border-white bg-[#70AD46] border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
                         <p className='text-white font-semibold text-xl'>Interview Assistance</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

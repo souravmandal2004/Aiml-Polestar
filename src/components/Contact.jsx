@@ -10,14 +10,14 @@ function Contact() {
                 <div className='text-white max-w-[800px] bg-[#214392] flex flex-col justify-center items-center p-[2em] rounded-lg gap-6 hover:bg-[#0A192F] transition-all duration-300'>
                     <MdOutlineLocationOn size={50} color='#B7094C'/>
                     <h3 className='font-bold text-2xl'>Our Branches</h3>
-                    <p className='text-xl font-semibold'>#2-56/2/19, 3rd Floor, Vijaya Towers, Ayyappa Society 100ft Road, Madhapur, Hyderabad, Telangana 500081</p>
+                    <p className='text-xl font-semibold'> Plot no. A23, Raghunathpur, Bhubaneswar, Odisha, 751024</p>
                 </div>
 
                 {/* email  */}
                 <div className='text-white bg-[#214392] max-w-[800px] flex flex-col justify-center items-center p-[2em] rounded-lg gap-6 hover:bg-[#0A192F] transition-all duration-300'>
                     <MdEmail size={50} color='#B7094C'/>
                     <h3 className='text-2xl font-bold'>Email</h3>
-                    <p className='font-semibold text-xl text-center'>aimlpolestar@gmail.com</p>
+                    <p className='font-semibold text-xl text-center'>technology@aimlpolestar.com</p>
                 </div>
             </div>
 
