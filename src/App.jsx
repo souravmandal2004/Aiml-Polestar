@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from '../src/components/Navbar';
 import Home from '../src/components/Home';
 import Services from "../src/components/Services";
-import Product from './components/Product';
+import Solution from './components/Solution';
 import About from './components/About';
 import Contact from './components/Contact';
 import Training from './components/Training';
@@ -15,7 +15,7 @@ function App() {
 
     <Navbar />
     <Home />
-    <Product />
+    <Solution />
     <Services />
     <Training />
     <About />

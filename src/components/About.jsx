@@ -12,10 +12,10 @@ import fourthValue from "../assets/value4.png";
 
 function About() {
     return (
-        <div name="about" className='bg-[#0a192f] w-full overflow-x-hidden'>
+        <div name="about" className='bg-[#0a192f] w-full overflow-hidden'>
 
-            <div className='flex bg-black mt-24 h-screen justify-evenly'>
-                <div className='flex justify-center items-center'>
+            <div className='flex bg-black mt-24 h-screen justify-between'>
+                <div className='flex justify-center items-center mx-auto'>
                     <h3 className='text-white text-7xl font-extrabold'>ABOUT US</h3>
                 </div>
                 <img src={aboutUsImg} alt="Image of about us page" loading='lazy' className='w-[1000px] '/>
@@ -60,9 +60,9 @@ function About() {
                 {/* description */}
                 <div className='sm:px-10 mx-auto flex flex-col gap-6 mb-12 mt-12'>
                     {/* <h3 className='text-[#de909e] text-5xl font-bold'>About Us</h3> */}
-                    <p className='text-white text-xl'>AIML Polestar Pvt. Ltd. is a data engineering and AI/ML solutions provider helping small and medium enterprises enhance efficiencies, reduce costs and drive growth through customized data pipelines, analytics, and machine learning models tailored to specific business needs.</p>
-                    <p className='text-white text-xl'>At AIML Polestar Pvt Ltd, we are a leading provider of AI and machine learning solutions aimed at helping companies leverage the power of their data. With expertise in artificial intelligence, machine learning, and data engineering, we partner with organizations to develop impactful solutions tailored to their specific business needs.</p>
-                    <p className='text-white text-xl'>Our mission is to enable businesses to accelerate innovation, improve efficiency, and gain a true competitive edge through applied data science. We have helped over 10 clients across industries by building custom machine learning algorithms and AI-based recommendation and prediction models.</p>
+                    <p className='text-white text-2xl font-semibold'>AIML Polestar Pvt. Ltd. is a data engineering and AI/ML solutions provider helping small and medium enterprises enhance efficiencies, reduce costs and drive growth through customized data pipelines, analytics, and machine learning models tailored to specific business needs.</p>
+                    <p className='text-white text-2xl font-semibold'>At AIML Polestar Pvt Ltd, we are a leading provider of AI and machine learning solutions aimed at helping companies leverage the power of their data. With expertise in artificial intelligence, machine learning, and data engineering, we partner with organizations to develop impactful solutions tailored to their specific business needs.</p>
+                    <p className='text-white text-2xl font-semibold'>Our mission is to enable businesses to accelerate innovation, improve efficiency, and gain a true competitive edge through applied data science. We have helped over 10 clients across industries by building custom machine learning algorithms and AI-based recommendation and prediction models.</p>
                 </div>
             </div>
 
@@ -75,8 +75,8 @@ function About() {
 
                 {/* description */}
                 <div className='sm:px-10 mx-auto flex flex-col gap-6'>
-                    <h3 className='text-[#de909e] text-5xl font-bold'>Our Team and Culture</h3>
-                    <p className='text-white text-xl'>We have a diverse team of data scientists, machine learning engineers, and AI experts dedicated to staying at the cutting edge of artificial intelligence capabilities in order to best serve our clients’ needs. Innovation is at the core of our culture, and we invest heavily in R&D to push boundaries and uncover new opportunities.
+                    <h3 className='text-[#de909e] text-5xl font-bold mb-12'>Our Team and Culture</h3>
+                    <p className='text-white text-2xl font-semibold'>We have a diverse team of data scientists, machine learning engineers, and AI experts dedicated to staying at the cutting edge of artificial intelligence capabilities in order to best serve our clients’ needs. Innovation is at the core of our culture, and we invest heavily in R&D to push boundaries and uncover new opportunities.
                         We foster a supportive, creative environment where ideas can flourish and enable our employees to do their best work every day on behalf of our partners. Contact us today to learn more about how we can collaborate to tap into the true potential of your business data.</p>
                 </div>
             </div>

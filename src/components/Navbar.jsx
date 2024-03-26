@@ -34,7 +34,7 @@ function Navbar() {
                 
 
                 <li className="text-2xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
-                    <Link to='product' smooth={true} duration={800}>
+                    <Link to='solution' smooth={true} duration={800}>
                         Solutions
                     </Link>
                 </li>

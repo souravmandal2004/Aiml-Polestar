@@ -14,22 +14,22 @@ import dataQuality from "../assets/dataQuality.png";
 
 function Services() {
     return (
-        <div name="service" className='bg-[#0a192f] w-full overflow-x-hidden'>
+        <div name="service" className='bg-[#0a192f] w-full overflow-hidden'>
 
-            <h3 className='text-5xl text-white flex justify-center items-center mt-36 underline mb-12 font-bold'>SERVICES PROVIDED</h3>
+            <h3 className='text-5xl text-white flex justify-center items-center underline mt-36 mb-12 font-bold'>SERVICES PROVIDED</h3>
 
 
             {/* Data Pipeline  */}
             <div className='mt-24 flex flex-col md:flex-row gap-12 max-w-[1000px] mx-auto items-center'>
                 {/*image */}
-                <div className='max-w-full md:w-[1600px] mx-auto '>
-                    <img src={dataPipeline} alt="Image" loading='lazy' className='w-full h-auto md:max-w-[800px] md:w-full rounded-xl' />
+                <div className='max-w-[1000px] md:w-[30%] w-full mx-auto border border-white p-4 rounded-xl'>
+                    <img src={dataPipeline} alt="Image" loading='lazy' className='w-full h-auto rounded-xl' />
                 </div>
 
                 {/* description */}
-                <div className='sm:px-10 mx-auto  flex flex-col gap-6'>
+                <div className='sm:px-10 mx-auto  flex flex-col gap-6 md:w-[80%]'>
                     <h3 className='text-[#de909e] text-4xl font-bold'>Data Pipeline</h3>
-                    <p className='text-white text-xl'>Craft Seamless Data Flows: Our data pipeline services empower you to effortlessly move, transform, and manage data from diverse sources. Whether structured or unstructured, batch or real-time, we design and implement pipelines that ensure a continuous and reliable flow of data. By optimizing data movement and transformation, we enable you to derive real-time insights and make informed decisions faster.</p>
+                    <p className='text-white text-2xl font-semibold'>Craft Seamless Data Flows: Our data pipeline services empower you to effortlessly move, transform, and manage data from diverse sources. Whether structured or unstructured, batch or real-time, we design and implement pipelines that ensure a continuous and reliable flow of data. By optimizing data movement and transformation, we enable you to derive real-time insights and make informed decisions faster.</p>
                 </div>
             </div>
 
@@ -37,14 +37,14 @@ function Services() {
             {/* Machine Learning Mastery */}
             <div className='mt-24 flex flex-col md:flex-row gap-12 max-w-[1000px] mx-auto items-center'>
                 {/*image */}
-                <div className='max-w-full md:w-[1600px] mx-auto'>
-                    <img src={machinLearning} alt="Image" loading='lazy' className='w-full h-auto md:max-w-[800px] md:w-full rounded-xl' />
+                <div className='max-w-[1000px] md:w-[30%] w-full mx-auto border border-white p-4 rounded-xl'>
+                    <img src={machinLearning} alt="Image" loading='lazy' className='w-full h-auto rounded-xl' />
                 </div>
 
                 {/* description */}
-                <div className='sm:px-10 mx-auto flex flex-col gap-6'>
+                <div className='sm:px-10 mx-auto flex flex-col gap-6 md:w-[80%]'>
                     <h3 className='text-[#de909e] text-4xl font-bold'>Machine Learning Mastery</h3>
-                    <p className='text-white text-xl'>Empower with Custom Models: Harness the power of machine learning to revolutionize your business processes. Our machine learning experts design and develop custom models tailored to your specific needs. By automating tasks and predicting future outcomes, these models optimize efficiency and strategic planning. From recommendation engines to fraud detection, we transform your data into predictive power.</p>
+                    <p className='text-white text-2xl font-semibold'>Empower with Custom Models: Harness the power of machine learning to revolutionize your business processes. Our machine learning experts design and develop custom models tailored to your specific needs. By automating tasks and predicting future outcomes, these models optimize efficiency and strategic planning. From recommendation engines to fraud detection, we transform your data into predictive power.</p>
                 </div>
             </div>
 
@@ -52,28 +52,28 @@ function Services() {
             {/* Real-time Data Intelligence */}
             <div className='mt-24 flex flex-col md:flex-row gap-12 max-w-[1000px] mx-auto items-center'>
                 {/*image */}
-                <div className='max-w-full md:w-[1600px] mx-auto'>
+                <div className='max-w-[1000px] md:w-[30%] w-full mx-auto border border-white p-4 rounded-xl'>
                     <img src={realTimeData} alt="Image" loading='lazy' className='w-full h-auto md:max-w-[800px] md:w-full rounded-xl' />
                 </div>
 
                 {/* description */}
-                <div className='sm:px-10 mx-auto flex flex-col gap-6'>
+                <div className='sm:px-10 mx-auto flex flex-col gap-6 md:w-[80%]'>
                     <h3 className='text-[#de909e] text-4xl font-bold'>Real-time Data Intelligence</h3>
-                    <p className='text-white text-xl'>Instant Insights, Timely Actions: In today's fast-paced world, real-time insights are crucial for effective decision-making. Our real-time data intelligence solutions provide you with instant access to actionable insights as data flows in. From real-time dashboards to automated alerts, you can respond promptly to changing scenarios, seize opportunities, and mitigate risks.</p>
+                    <p className='text-white text-2xl font-semibold'>Instant Insights, Timely Actions: In today's fast-paced world, real-time insights are crucial for effective decision-making. Our real-time data intelligence solutions provide you with instant access to actionable insights as data flows in. From real-time dashboards to automated alerts, you can respond promptly to changing scenarios, seize opportunities, and mitigate risks.</p>
                 </div>
             </div>
 
             {/* MLOps Excellence */}
             <div className='mt-24 flex flex-col md:flex-row gap-12 max-w-[1000px] mx-auto items-center'>
                 {/*image */}
-                <div className='max-w-full md:w-[1600px] mx-auto'>
+                <div className='max-w-[1000px] md:w-[30%] w-full mx-auto border border-white pl-4 pr-4 pb-6 rounded-xl mt-10 pt-4'>
                     <img src={mlops} alt="Image" loading='lazy' className='w-full h-auto md:max-w-[800px] md:w-full rounded-xl' />
                 </div>
 
                 {/* description */}
-                <div className='sm:px-10 mx-auto flex flex-col gap-6'>
+                <div className='sm:px-10 mx-auto flex flex-col gap-6 md:w-[80%]'>
                     <h3 className='text-[#de909e] text-4xl font-bold'>MLOps Excellence</h3>
-                    <p className='text-white text-xl'>Seamless Model Management: Our MLOps expertise bridges the gap between machine learning development and operations. We ensure the seamless deployment, monitoring, and management of your machine learning models throughout their lifecycle. By maintaining optimal performance and accuracy, we help you achieve sustained success with your Al initiatives.</p>
+                    <p className='text-white text-2xl font-semibold'>Seamless Model Management: Our MLOps expertise bridges the gap between machine learning development and operations. We ensure the seamless deployment, monitoring, and management of your machine learning models throughout their lifecycle. By maintaining optimal performance and accuracy, we help you achieve sustained success with your Al initiatives.</p>
                 </div>
             </div>
 
@@ -81,28 +81,28 @@ function Services() {
             {/* Natural Language Processing (NLP) */}
             <div className='mt-24 flex flex-col md:flex-row gap-12 max-w-[1000px] mx-auto items-center'>
                 {/*image */}
-                <div className='max-w-full md:w-[1600px] mx-auto'>
+                <div className='max-w-[1000px] md:w-[30%] w-full mx-auto border border-white rounded-xl mt-14 p-4'>
                     <img src={nlp} alt="Image" loading='lazy' className='w-full h-auto md:max-w-[800px] md:w-full rounded-xl' />
                 </div>
 
                 {/* description */}
-                <div className='sm:px-10 mx-auto flex flex-col gap-6'>
+                <div className='sm:px-10 mx-auto flex flex-col gap-6 md:w-[80%]'>
                     <h3 className='text-[#de909e] text-4xl font-bold'>Natural Language Processing (NLP)</h3>
-                    <p className='text-white text-xl'>Instant Insights, Timely Actions: In today's fast-paced world, real-time insights are crucial for effective decision-making. Our real-time data intelligence solutions provide you with instant access to actionable insights as data flows in. From real-time dashboards to automated alerts, you can respond promptly to changing scenarios, seize opportunities, and mitigate risks.</p>
+                    <p className='text-white text-2xl font-semibold'>Instant Insights, Timely Actions: In today's fast-paced world, real-time insights are crucial for effective decision-making. Our real-time data intelligence solutions provide you with instant access to actionable insights as data flows in. From real-time dashboards to automated alerts, you can respond promptly to changing scenarios, seize opportunities, and mitigate risks.</p>
                 </div>
             </div>
 
             {/* Recommendation Systems */}
             <div className='mt-24 flex flex-col md:flex-row gap-12 max-w-[1000px] mx-auto items-center'>
                 {/*image */}
-                <div className='max-w-full md:w-[1600px] mx-auto'>
+                <div className='max-w-[1000px] md:w-[30%] w-full mx-auto border border-white p-4 rounded-xl mt-10'>
                     <img src={recommendation} alt="Image" loading='lazy' className='w-full h-auto md:max-w-[800px] md:w-full rounded-xl' />
                 </div>
 
                 {/* description */}
-                <div className='sm:px-10 mx-auto flex flex-col gap-6'>
+                <div className='sm:px-10 mx-auto flex flex-col gap-6 md:w-[80%]'>
                     <h3 className='text-[#de909e] text-4xl font-bold'>Recommendation Systems</h3>
-                    <p className='text-white text-xl'>Personalized Experiences: Enhance customer experiences and engagement through personalized recommendations. Our recommendation systems analyze user behavior to suggest products, content, or services tailored to individual preferences. By delivering relevant offerings, you deepen customer loyalty and drive conversions.</p>
+                    <p className='text-white text-2xl font-semibold'>Personalized Experiences: Enhance customer experiences and engagement through personalized recommendations. Our recommendation systems analyze user behavior to suggest products, content, or services tailored to individual preferences. By delivering relevant offerings, you deepen customer loyalty and drive conversions.</p>
                 </div>
             </div>
 
@@ -111,28 +111,28 @@ function Services() {
             {/* Data Pipelines */}
             <div className='mt-24 flex flex-col md:flex-row gap-12 max-w-[1000px] mx-auto items-center'>
                 {/*image */}
-                <div className='max-w-full md:w-[1600px] mx-auto'>
+                <div className='max-w-[1000px] md:w-[30%] w-full mx-auto border border-white p-4 rounded-xl'>
                     <img src={dataPipeline} alt="Image" loading='lazy' className='w-full h-auto md:max-w-[800px] md:w-full rounded-xl' />
                 </div>
 
                 {/* description */}
-                <div className='sm:px-10 mx-auto flex flex-col gap-6'>
+                <div className='sm:px-10 mx-auto flex flex-col gap-6 md:w-[80%]'>
                     <h3 className='text-[#de909e] text-4xl font-bold'>Data Pipeline</h3>
-                    <p className='text-white text-xl'>Craft Seamless Data Flows: Our data pipeline services empower you to effortlessly move, transform, and manage data from diverse sources. Whether structured or unstructured, batch or real-time, we design and implement pipelines that ensure a continuous and reliable flow of data. By optimizing data movement and transformation, we enable you to derive real-time insights and make informed decisions faster.</p>
+                    <p className='text-white text-2xl font-semibold'>Craft Seamless Data Flows: Our data pipeline services empower you to effortlessly move, transform, and manage data from diverse sources. Whether structured or unstructured, batch or real-time, we design and implement pipelines that ensure a continuous and reliable flow of data. By optimizing data movement and transformation, we enable you to derive real-time insights and make informed decisions faster.</p>
                 </div>
             </div>
 
             {/* Web-Scale Automation */}
             <div className='mt-24 flex flex-col md:flex-row gap-12 max-w-[1000px] mx-auto items-center'>
                 {/*image */}
-                <div className='max-w-full md:w-[1600px] mx-auto'>
+                <div className='max-w-[1000px] md:w-[30%] w-full mx-auto border border-white p-4 rounded-xl'>
                     <img src={webScale} alt="Image" loading='lazy' className='w-full h-auto md:max-w-[800px] md:w-full rounded-xl' />
                 </div>
 
                 {/* description */}
-                <div className='sm:px-10 mx-auto flex flex-col gap-6'>
+                <div className='sm:px-10 mx-auto flex flex-col gap-6 md:w-[80%]'>
                     <h3 className='text-[#de909e] text-4xl font-bold'>Web-Scale Automation</h3>
-                    <p className='text-white text-xl'>Unleash Operational Efficiency: Manual tasks can slow down your operations. Our web-scale automation solutions eliminate bottlenecks by automating data-related processes from ingestion to deployment. This not only boosts efficiency but also enables seamless scaling, allowing your systems to adapt dynamically to changing demands without human intervention.</p>
+                    <p className='text-white text-2xl font-semibold'>Unleash Operational Efficiency: Manual tasks can slow down your operations. Our web-scale automation solutions eliminate bottlenecks by automating data-related processes from ingestion to deployment. This not only boosts efficiency but also enables seamless scaling, allowing your systems to adapt dynamically to changing demands without human intervention.</p>
                 </div>
             </div>
 
@@ -140,42 +140,42 @@ function Services() {
             {/* Security & Governance */}
             <div className='mt-24 flex flex-col md:flex-row gap-12 max-w-[1000px] mx-auto items-center'>
                 {/*image */}
-                <div className='max-w-full md:w-[1600px] mx-auto'>
+                <div className='max-w-[1000px] md:w-[30%] w-full mx-auto border border-white p-4 rounded-xl mt-6'>
                     <img src={security} alt="Image" loading='lazy' className='w-full h-auto md:max-w-[800px] md:w-full rounded-xl' />
                 </div>
 
                 {/* description */}
-                <div className='sm:px-10 mx-auto flex flex-col gap-6'>
+                <div className='sm:px-10 mx-auto flex flex-col gap-6 md:w-[80%]'>
                     <h3 className='text-[#de909e] text-4xl font-bold'>Security & Governance</h3>
-                    <p className='text-white text-xl'>Fortify Data Assets: In the age of data breaches and compliance requirements, data security and governance are paramount. We provide end-to-end security solutions that safeguard your data throughout its lifecycle. Our robust governance frameworks ensure that your data is managed ethically, accurately, and in compliance with industry regulations.</p>
+                    <p className='text-white text-2xl font-semibold'>Fortify Data Assets: In the age of data breaches and compliance requirements, data security and governance are paramount. We provide end-to-end security solutions that safeguard your data throughout its lifecycle. Our robust governance frameworks ensure that your data is managed ethically, accurately, and in compliance with industry regulations.</p>
                 </div>
             </div>
 
             {/* Cloud Integration */}
             <div className='mt-24 flex flex-col md:flex-row gap-12 max-w-[1000px] mx-auto items-center'>
                 {/*image */}
-                <div className='max-w-full md:w-[1600px] mx-auto'>
+                <div className='max-w-[1000px] md:w-[30%] w-full mx-auto border border-white p-4 rounded-xl'>
                     <img src={cloudIntegration} alt="Image" loading='lazy' className='w-full h-auto md:max-w-[800px] md:w-full rounded-xl' />
                 </div>
 
                 {/* description */}
-                <div className='sm:px-10 mx-auto flex flex-col gap-6'>
+                <div className='sm:px-10 mx-auto flex flex-col gap-6 md:w-[80%]'>
                     <h3 className='text-[#de909e] text-4xl font-bold'>Cloud Integration</h3>
-                    <p className='text-white text-xl'>End to end escrow automation functionality, from contract management to transaction and party execution. Stitched together upstream and downstream API journeys to integrate with the bank’s core systems and automate accounting. Automated reconciliation, budget tracking and reporting including offering lean operations teams the ability to manage exceptions.</p>
+                    <p className='text-white text-2xl font-semibold'>End to end escrow automation functionality, from contract management to transaction and party execution. Stitched together upstream and downstream API journeys to integrate with the bank’s core systems and automate accounting. Automated reconciliation, budget tracking and reporting including offering lean operations teams the ability to manage exceptions.</p>
                 </div>
             </div>
 
             {/* ETL Expertise */}
             <div className='mt-24 flex flex-col md:flex-row gap-12 max-w-[1000px] mx-auto items-center'>
                 {/*image */}
-                <div className='max-w-full md:w-[1600px] mx-auto'>
+                <div className='max-w-[1000px] md:w-[30%] w-full mx-auto border border-white p-4 rounded-xl'>
                     <img src={etl} alt="Image" loading='lazy' className='w-full h-auto md:max-w-[800px] md:w-full rounded-xl' />
                 </div>
 
                 {/* description */}
-                <div className='sm:px-10 mx-auto flex flex-col gap-6'>
+                <div className='sm:px-10 mx-auto flex flex-col gap-6 md:w-[80%]'>
                     <h3 className='text-[#de909e] text-4xl font-bold'>ETL Expertise</h3>
-                    <p className='text-white text-xl'>Mastering Data Transformation: Extract, transform, load (ETL) processes are where raw data transforms into actionable insights. Our ETL expertise ensures that data is extracted accurately, transformed comprehensively, and loaded seamlessly into target systems. This ensures the quality and consistency of data for downstream consumption.</p>
+                    <p className='text-white text-2xl font-semibold'>Mastering Data Transformation: Extract, transform, load (ETL) processes are where raw data transforms into actionable insights. Our ETL expertise ensures that data is extracted accurately, transformed comprehensively, and loaded seamlessly into target systems. This ensures the quality and consistency of data for downstream consumption.</p>
                 </div>
             </div>
 
@@ -183,14 +183,14 @@ function Services() {
             {/* Data Quality Management */}
             <div className='mt-24 flex flex-col md:flex-row gap-12 max-w-[1000px] mx-auto items-center'>
                 {/*image */}
-                <div className='max-w-full md:w-[1600px] mx-auto'>
+                <div className='max-w-[1000px] md:w-[30%] w-full mx-auto border border-white p-4 rounded-xl mt-10'>
                     <img src={dataQuality} alt="Image" loading='lazy' className='w-full h-auto md:max-w-[800px] md:w-full rounded-xl' />
                 </div>
 
                 {/* description */}
-                <div className='sm:px-10 mx-auto flex flex-col gap-6'>
+                <div className='sm:px-10 mx-auto flex flex-col gap-6 md:w-[80%]'>
                     <h3 className='text-[#de909e] text-4xl font-bold'>Data Quality Management</h3>
-                    <p className='text-white text-xl'>Data Accuracy and Consistency: Poor data quality can lead to costly mistakes and inaccurate insights. Our data quality management strategies encompass data profiling, cleansing, enrichment, and monitoring. By maintaining data accuracy and consistency, we prevent errors from propagating downstream and empower you to make sound decisions.</p>
+                    <p className='text-white text-2xl font-semibold'>Data Accuracy and Consistency: Poor data quality can lead to costly mistakes and inaccurate insights. Our data quality management strategies encompass data profiling, cleansing, enrichment, and monitoring. By maintaining data accuracy and consistency, we prevent errors from propagating downstream and empower you to make sound decisions.</p>
                 </div>
             </div>
 
