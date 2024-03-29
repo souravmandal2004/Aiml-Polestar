@@ -2,8 +2,6 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-scroll";
 import { FaBars, FaTimes } from "react-icons/fa";
-// import Logo from "../assets/output.png";
-// import Logo from "../assets/output.png";
 import Logo from "../assets/whatsappLogo.jpeg";
 
 function Navbar() {
@@ -89,8 +87,8 @@ function Navbar() {
 
                 <li className='py-6 text-4xl'>
                     {' '}
-                    <Link onClick={handleClick} to='product' smooth={true} duration={800}>
-                        Product
+                    <Link onClick={handleClick} to='solution' smooth={true} duration={800}>
+                        Solutions
                     </Link>
                 </li>
 

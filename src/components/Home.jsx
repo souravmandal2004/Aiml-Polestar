@@ -12,7 +12,7 @@ function Home() {
 
                         {/* description */}
                         <div className='sm:px-10'>
-                            <h3 className='text-[#CCD6F6] text-7xl font-extrabold '>AIML Polestar</h3>
+                            <h3 className='text-[#CCD6F6] text-7xl font-extrabold font-poppins'>AIML Polestar</h3>
                             <p className='text-[#D87A00] text-3xl font-semibold mt-6 bg-[#0e1d3e] rounded-lg p-2'>Drive excellence in your organization by empowering and equipping it with world-class solutions in
                             <span className='text-yellow-300'> Advanced Technologies.</span></p>
                         </div>

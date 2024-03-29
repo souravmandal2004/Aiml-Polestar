@@ -12,9 +12,12 @@ function Product() {
             </div> */}
 
 
+
+            <h3 className='text-3xl sm:text-4xl md:text-5xl text-white flex justify-center items-center mt-36 underline mb-12 font-bold'>SOLUTIONS DELIVERED</h3>
+
             {/* Use Case Delivered  */}
             <div className='mt-36 max-w-[1000px] mx-auto'>
-                <h3 className='text-5xl text-white flex justify-center items-center mt-36 underline mb-12 font-bold'>SOLUTIONS DELIVERED</h3>
+                
                 <div className='grid sm:grid-cols-1 md:grid-cols-2 mt-24 lg:grid-cols-4 gap-6 text-xl'>
 
 

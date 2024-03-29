@@ -16,7 +16,7 @@ function About() {
 
             <div className='flex bg-black mt-24 h-screen justify-between'>
                 <div className='flex justify-center items-center mx-auto'>
-                    <h3 className='text-white text-7xl font-extrabold'>ABOUT US</h3>
+                    <h3 className='text-white mx-auto text-5xl sm:text-6xl md:text-7xl font-extrabold'>ABOUT US</h3>
                 </div>
                 <img src={aboutUsImg} alt="Image of about us page" loading='lazy' className='w-[1000px] '/>
             </div>
@@ -25,7 +25,7 @@ function About() {
             <div className='mt-36 max-w-[1000px] mx-auto'>
                 <h3 className='text-5xl text-[#de909e] flex justify-center items-center mb-20 font-bold'>Our Values</h3>
                 
-                <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6'>
+                <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center'>
                     {/* first value  */}
                     <div className=''>
                         <img src={firstValue} alt="first value" loading='lazy' className='rounded-full' />
@@ -75,7 +75,7 @@ function About() {
 
                 {/* description */}
                 <div className='sm:px-10 mx-auto flex flex-col gap-6'>
-                    <h3 className='text-[#de909e] text-5xl font-bold mb-12'>Our Team and Culture</h3>
+                    <h3 className='text-[#de909e] mx-auto text-3xl sm:text-4xl md:text-5xl font-bold mb-12'>Our Team and Culture</h3>
                     <p className='text-white text-2xl font-semibold'>We have a diverse team of data scientists, machine learning engineers, and AI experts dedicated to staying at the cutting edge of artificial intelligence capabilities in order to best serve our clients’ needs. Innovation is at the core of our culture, and we invest heavily in R&D to push boundaries and uncover new opportunities.
                         We foster a supportive, creative environment where ideas can flourish and enable our employees to do their best work every day on behalf of our partners. Contact us today to learn more about how we can collaborate to tap into the true potential of your business data.</p>
                 </div>
