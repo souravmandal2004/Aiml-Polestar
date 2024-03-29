@@ -17,7 +17,7 @@ function Contact() {
                 <div className='text-white bg-[#214392] max-w-[800px] flex flex-col justify-center items-center p-[2em] rounded-lg gap-6 hover:bg-[#0A192F] transition-all duration-300'>
                     <MdEmail size={50} color='#B7094C'/>
                     <h3 className='text-2xl font-bold'>Email</h3>
-                    <p className='font-semibold text-xl text-center'>technology@aimlpolestar.com</p>
+                    <p className='font-semibold text-xl text-center'>contact@aimlpolestar.com</p>
                 </div>
             </div>
 
