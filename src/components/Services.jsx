@@ -28,7 +28,7 @@ function Services() {
 
                 {/* description */}
                 <div className='sm:px-10 mx-auto  flex flex-col gap-6 md:w-[80%]'>
-                    <h3 className='text-2xl sm:text-3xl md:text-4xl mx-auto text-[#de909e] font-bold'>Data Pipeline</h3>
+                    <h3 className='text-2xl sm:text-3xl md:text-4xl mx-auto text-[#de909e] p-3 font-bold'>Data Pipeline</h3>
                     <p className='text-white text-xl p-3'>Craft Seamless Data Flows: Our data pipeline services empower you to effortlessly move, transform, and manage data from diverse sources. Whether structured or unstructured, batch or real-time, we design and implement pipelines that ensure a continuous and reliable flow of data. By optimizing data movement and transformation, we enable you to derive real-time insights and make informed decisions faster.</p>
                 </div>
             </div>
@@ -43,7 +43,7 @@ function Services() {
 
                 {/* description */}
                 <div className='sm:px-10 mx-auto flex flex-col gap-6 md:w-[80%]'>
-                    <h3 className='text-[#de909e] font-bold mx-auto text-2xl sm:text-3xl md:text-4xl'>Machine Learning Mastery</h3>
+                    <h3 className='text-[#de909e] font-bold mx-auto p-3 text-2xl sm:text-3xl md:text-4xl'>Machine Learning Mastery</h3>
                     <p className='text-white text-xl p-3'>Empower with Custom Models: Harness the power of machine learning to revolutionize your business processes. Our machine learning experts design and develop custom models tailored to your specific needs. By automating tasks and predicting future outcomes, these models optimize efficiency and strategic planning. From recommendation engines to fraud detection, we transform your data into predictive power.</p>
                 </div>
             </div>
@@ -58,7 +58,7 @@ function Services() {
 
                 {/* description */}
                 <div className='sm:px-10 mx-auto flex flex-col gap-6 md:w-[80%]'>
-                    <h3 className='text-[#de909e] mx-auto text-2xl sm:text-3xl md:text-4xl font-bold'>Real-time Data Intelligence</h3>
+                    <h3 className='text-[#de909e] mx-auto p-3 text-2xl sm:text-3xl md:text-4xl font-bold'>Real-time Data Intelligence</h3>
                     <p className='text-white text-xl p-3'>Instant Insights, Timely Actions: In today's fast-paced world, real-time insights are crucial for effective decision-making. Our real-time data intelligence solutions provide you with instant access to actionable insights as data flows in. From real-time dashboards to automated alerts, you can respond promptly to changing scenarios, seize opportunities, and mitigate risks.</p>
                 </div>
             </div>
@@ -87,7 +87,7 @@ function Services() {
 
                 {/* description */}
                 <div className='sm:px-10 mx-auto flex flex-col gap-6 md:w-[80%]'>
-                    <h3 className='text-[#de909e] mx-auto text-2xl sm:text-3xl md:text-4xl font-bold'>Natural Language Processing (NLP)</h3>
+                    <h3 className='text-[#de909e] mx-auto text-2xl sm:text-3xl p-3 md:text-4xl font-bold'>Natural Language Processing (NLP)</h3>
                     <p className='text-white text-xl p-3'>Instant Insights, Timely Actions: In today's fast-paced world, real-time insights are crucial for effective decision-making. Our real-time data intelligence solutions provide you with instant access to actionable insights as data flows in. From real-time dashboards to automated alerts, you can respond promptly to changing scenarios, seize opportunities, and mitigate risks.</p>
                 </div>
             </div>
@@ -106,7 +106,7 @@ function Services() {
                 </div>
             </div>
 
-            <h3 className='text-white flex justify-center items-center mt-36 underline mb-12 font-bold mx-auto text-center text-3xl sm:text-4xl md:text-5xl'>Data Engineering Services</h3>
+            <h3 className='text-white flex justify-center items-center mt-36 underline mb-12 font-bold mx-auto text-center text-3xl p-3 sm:text-4xl md:text-5xl'>Data Engineering Services</h3>
 
             {/* Data Pipelines */}
             <div className='mt-24 flex flex-col md:flex-row gap-12 max-w-[1000px] mx-auto items-center'>

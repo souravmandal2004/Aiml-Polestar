@@ -5,9 +5,9 @@ import { MdEmail } from "react-icons/md";
 function Contact() {
     return (
         <div name='contact' className='bg-[#0a192f] w-full overflow-x-hidden h-screen'>
-            <div className='max-w-[1600px] mx-auto mt-36 grid grid-cols-1 sm:grid-cols-2 gap-6'>
+            <div className='max-w-[1600px] p-3 mx-auto mt-36 grid grid-cols-1 sm:grid-cols-2 gap-6'>
                 {/* address */}
-                <div className='text-white max-w-[800px] bg-[#214392] flex flex-col justify-center items-center p-[2em] rounded-lg gap-6 hover:bg-[#0A192F] transition-all duration-300'>
+                <div className='text-white  max-w-[800px] bg-[#214392] flex flex-col justify-center items-center p-[2em] rounded-lg gap-6 hover:bg-[#0A192F] transition-all duration-300'>
                     <MdOutlineLocationOn size={50} color='#B7094C'/>
                     <h3 className='font-bold text-2xl'>Our Branches</h3>
                     <p className='text-xl font-semibold'> Plot no. A23, Raghunathpur, Bhubaneswar, Odisha, 751024</p>
