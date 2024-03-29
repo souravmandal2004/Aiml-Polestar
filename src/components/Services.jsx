@@ -106,7 +106,7 @@ function Services() {
                 </div>
             </div>
 
-            <h3 className='text-white flex justify-center items-center mt-36 underline mb-12 font-bold mx-auto text-center text-4xl sm:text-5xl md:text-6xl'>Data Engineering Services</h3>
+            <h3 className='text-white flex justify-center items-center mt-36 underline mb-12 font-bold mx-auto text-center text-3xl sm:text-4xl md:text-5xl'>Data Engineering Services</h3>
 
             {/* Data Pipelines */}
             <div className='mt-24 flex flex-col md:flex-row gap-12 max-w-[1000px] mx-auto items-center'>
