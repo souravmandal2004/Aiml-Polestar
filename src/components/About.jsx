@@ -23,7 +23,7 @@ function About() {
             <div className='mt-36 max-w-[1000px] mx-auto'>
                 <h3 className='text-5xl text-[#de909e] flex justify-center items-center mb-20 font-bold'>Our Values</h3>
                 
-                <div className='grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center'>
+                <div className='grid p-3 mx-3 grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center'>
                     {/* first value  */}
                     <div className=''>
                         <img src={firstValue} alt="first value" loading='lazy' className='rounded-full' />

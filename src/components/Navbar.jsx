@@ -13,9 +13,9 @@ function Navbar() {
         <div className='w-full h-[90px] flex justify-around items-center px-4  bg-[#0a192f] text-gray-300 fixed'>
 
             {/* Logo  */}
-            <div className='cursor-pointer'>
+            <div className='cursor-pointer w-[50px] md:w-[70px]'>
                 <Link to='home' smooth={true} duration={800}>
-                    <img src={Logo} alt='Logo Image' style={{ width: '70px' }} />
+                    <img src={Logo} alt='Logo Image' />
                 </Link>
             </div>
 
@@ -23,7 +23,7 @@ function Navbar() {
 
             {/* menu */}
             <ul className='hidden md:flex gap-16 cursor-pointer'>
-                <li className="text-2xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
+                <li className="text-xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
                     <Link to='home' smooth={true} duration={800}>
                         Home
                     </Link>
@@ -31,33 +31,33 @@ function Navbar() {
 
                 
 
-                <li className="text-2xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
+                <li className="text-xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
                     <Link to='solution' smooth={true} duration={800}>
                         Solutions
                     </Link>
                 </li>
 
-                <li className="text-2xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
+                <li className="text-xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
                     <Link to='service' smooth={true} duration={800}>
                         Services
                     </Link>
                 </li>
 
-                <li className="text-2xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
+                <li className="text-xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300">
                     <Link to='training' smooth={true} duration={800}>
                         Trainings
                     </Link>
                 </li>
 
 
-                <li className="text-2xl hover:bg-[#16325d] hover:rounded-lg  hover:p-2 transition-all duration-300">
+                <li className="text-xl hover:bg-[#16325d] hover:rounded-lg  hover:p-2 transition-all duration-300">
                     <Link to='about' smooth={true} duration={800}>
                         About
                     </Link>
                 </li>
 
 
-                <li className="text-2xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300" >
+                <li className="text-xl hover:bg-[#16325d] hover:rounded-lg hover:p-2 transition-all duration-300" >
                     <Link to='contact' smooth={true} duration={800}>
                         Contact
                     </Link>
