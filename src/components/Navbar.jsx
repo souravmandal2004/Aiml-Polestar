@@ -77,7 +77,7 @@ function Navbar() {
                         : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
                 }
             >
-                <li className='py-6 text-4xl'>
+                <li className='py-6 text-3xl'>
                     <Link onClick={handleClick} to='home' smooth={true} duration={800}>
                         Home
                     </Link>
@@ -85,27 +85,27 @@ function Navbar() {
 
                 
 
-                <li className='py-6 text-4xl'>
+                <li className='py-6 text-3xl'>
                     {' '}
                     <Link onClick={handleClick} to='solution' smooth={true} duration={800}>
                         Solutions
                     </Link>
                 </li>
 
-                <li className='py-6 text-4xl'>
+                <li className='py-6 text-3xl'>
                     {' '}
                     <Link onClick={handleClick} to='service' smooth={true} duration={800}>
                         Services
                     </Link>
                 </li>
-                <li className='py-6 text-4xl'>
+                <li className='py-6 text-3xl'>
                     {' '}
                     <Link onClick={handleClick} to='training' smooth={true} duration={800}>
                         Training
                     </Link>
                 </li>
 
-                <li className='py-6 text-4xl'>
+                <li className='py-6 text-3xl'>
                     {' '}
                     <Link onClick={handleClick} to='about' smooth={true} duration={800}>
                         About us
@@ -113,7 +113,7 @@ function Navbar() {
                 </li>
                 
                 
-                <li className='py-6 text-4xl'>
+                <li className='py-6 text-3xl'>
                     {' '}
                     <Link onClick={handleClick} to='contact' smooth={true} duration={800}>
                         Contact US

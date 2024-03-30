@@ -64,10 +64,6 @@ function Training() {
                     <div className='border-white bg-[#62B247] border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
                         <p className='text-white font-semibold text-xl'>Cloud Computing with AWS/Azure/GCP</p>
                     </div>
-                    {/* 15 
-                    <div className='border-white bg-[#70AD46] border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
-                        <p className='text-white font-semibold text-xl'>Interview Assistance</p>
-                    </div> */}
                 </div>
             </div>
         </div>
