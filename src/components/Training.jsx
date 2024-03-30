@@ -1,73 +1,98 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 
 function Training() {
+    const [showAll, setShowAll] = useState(false);
+    const [showButton, setShowButton] = useState(true);
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768);
+        };
+
+        handleResize();
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+    const handleShowAll = () => {
+        setShowAll(true);
+        setShowButton(false);
+    };
+
+    const handleShowLess = () => {
+        setShowAll(false);
+        setShowButton(true);
+    };
+
     return (
         <div name="training" className='bg-[#0a192f] w-full overflow-x-hidden'>
             {/* AiML training  */}
             <div className='mt-36 max-w-[1000px] mx-auto'>
-            <h3 className='text-5xl text-white flex justify-center items-center mt-36 underline mb-24 font-bold'>TRAININGS</h3>
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 MT-24 gap-6'>
+                <h3 className='text-5xl text-white flex justify-center items-center mt-36 underline mb-24 font-bold'>TRAININGS</h3>
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-24 gap-6'>
 
-                    {/* first  */}
-                    <div className='bg-[#5A9BD5] border-white border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
-                        <p className='text-white font-semibold text-xl'>Python for AI</p>
-                    </div>
-                    {/* 2nd  */}
-                    <div className='border-white bg-[#5AA9D2] border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
-                        <p className='text-white font-semibold text-xl'>Computer Vision</p>
-                    </div>
-                    {/* 3rd  */}
-                    <div className='border-white bg-[#57B7D0] border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
-                        <p className='text-white font-semibold text-xl'>Natural Language Processing</p>
-                    </div>
-                    {/* 4th  */}
-                    <div className='border-white bg-[#55C6CE] border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
-                        <p className='text-white font-semibold text-xl'>LLM and GenAI Implementation</p>
-                    </div>
-                    {/* 5th  */}
-                    <div className='border-white bg-[#52CCC5] border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
-                        <p className='text-white font-semibold text-xl'>Reinforcement Learning</p>
-                    </div>
-                    {/* 6th  */}
-                    <div className='border-white bg-[#50CAB1] border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
-                        <p className='text-white font-semibold text-xl'>MLOPs and Model Ops</p>
-                    </div>
-                    {/* 7th  */}
-                    <div className='border-white bg-[#4FC7A1] border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
-                        <p className='text-white font-semibold text-xl'>Machine Learning Modeling</p>
-                    </div>
-                    {/* 8th  */}
-                    <div className='border-white bg-[#4EC58D] border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
-                        <p className='text-white font-semibold text-xl'>Deep Learning</p>
-                    </div>
-                    {/* 9th  */}
-                    <div className='border-white bg-[#4EC27A] border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
-                        <p className='text-white font-semibold text-xl'>Advance Artificial Intelligence</p>
-                    </div>
-                    {/* 10th  */}
-                    <div className='border-white bg-[#46C168] border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
-                        <p className='text-white font-semibold text-xl'>Business Statistics and Mathematical Modeling</p>
-                    </div>
-                    {/* 11th  */}
-                    <div className='border-white bg-[#49BD58] border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
-                        <p className='text-white font-semibold text-xl'>Optimization and Simulation</p>
-                    </div>
-                    {/* 12  */}
-                    <div className='border-white bg-[#48BA48] border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
-                        <p className='text-white font-semibold text-xl'>AI for Business Leaders</p>
-                    </div>
-                    {/* 13  */}
-                    <div className='border-white bg-[#55B645] border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
-                        <p className='text-white font-semibold text-xl'>AI Prohect Life Cycle</p>
-                    </div>
-                    {/* 14  */}
-                    <div className='border-white bg-[#62B247] border-2 p-[2em] rounded-lg  hover:bg-[#214392] transition duration-300 cursor-pointer'>
-                        <p className='text-white font-semibold text-xl'>Cloud Computing with AWS/Azure/GCP</p>
-                    </div>
+                    {/* Render trainings based on screen size */}
+                    {(showAll || !showButton || !isMobile) ? (
+                        // Render all trainings
+                        <>
+                            <TrainingCard title="Python for AI" />
+                            <TrainingCard title="Computer Vision" />
+                            <TrainingCard title="Natural Language Processing" />
+                            <TrainingCard title="LLM and GenAI Implementation" />
+                            <TrainingCard title="Reinforcement Learning" />
+                            <TrainingCard title="MLOPs and Model Ops" />
+                            <TrainingCard title="Machine Learning Modeling" />
+                            <TrainingCard title="Deep Learning" />
+                            <TrainingCard title="Advance Artificial Intelligence" />
+                            <TrainingCard title="Business Statistics and Mathematical Modeling" />
+                            <TrainingCard title="Optimization and Simulation" />
+                            <TrainingCard title="AI for Business Leaders" />
+                            <TrainingCard title="AI Prohect Life Cycle" />
+                            <TrainingCard title="Cloud Computing with AWS/Azure/GCP"/>
+                        </>
+                    ) : (
+                        // Render only the first three trainings initially
+                        <>
+                            <TrainingCard title="Python for AI" />
+                            <TrainingCard title="Computer Vision" />
+                            <TrainingCard title="Natural Language Processing" />
+                        </>
+                    )}
                 </div>
+                {/* Dropdown button to show all trainings for mobile */}
+                {showButton && !showAll && isMobile && (
+                    <div className="flex justify-center mt-8 sm:hidden">
+                        <button onClick={handleShowAll} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                            Show All Trainings
+                        </button>
+                    </div>
+                )}
+
+                {/* Show Less button for mobile */}
+                {showAll && isMobile && (
+                    <div className="flex justify-center mt-8 sm:hidden">
+                        <button onClick={handleShowLess} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                            Show Less
+                        </button>
+                    </div>
+                )}
             </div>
         </div>
-    )
+    );
+}
+
+// Component for rendering individual training cards
+function TrainingCard({ title }) {
+    return (
+        <div className='bg-[#5A9BD5] border-white border-2 p-[2em] rounded-lg hover:bg-[#214392] transition duration-300 cursor-pointer'>
+            <p className='text-white font-semibold text-xl'>{title}</p>
+        </div>
+    );
 }
 
 export default Training;

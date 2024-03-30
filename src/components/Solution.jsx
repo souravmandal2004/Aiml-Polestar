@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import productImg from "../assets/product.jpg";
 
-function Product() {
+function Solution() {
     const [showAll, setShowAll] = useState(false);
     const [showButton, setShowButton] = useState(true);
     const [isMobile, setIsMobile] = useState(false);
@@ -23,6 +23,11 @@ function Product() {
     const handleShowAll = () => {
         setShowAll(true);
         setShowButton(false);
+    };
+
+    const handleShowLess = () => {
+        setShowAll(false);
+        setShowButton(true);
     };
 
     return (
@@ -66,6 +71,15 @@ function Product() {
                         </button>
                     </div>
                 )}
+
+                {/* Show Less button for mobile */}
+                {showAll && isMobile && (
+                    <div className="flex justify-center mt-8 sm:hidden">
+                        <button onClick={handleShowLess} className="bg-blue-500 hover:bg-[#0A192F] text-white font-bold py-2 px-4 rounded">
+                            Show Less
+                        </button>
+                    </div>
+                )}
             </div>
         </div>
     );
@@ -80,4 +94,4 @@ function SolutionCard({ title }) {
     );
 }
 
-export default Product;
+export default Solution;
