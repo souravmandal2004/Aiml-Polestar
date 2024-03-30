@@ -73,8 +73,8 @@ function About() {
 
                 {/* description */}
                 <div className='sm:px-10 mx-auto flex flex-col gap-6'>
-                    <h3 className='text-[#de909e] mx-auto text-3xl sm:text-4xl md:text-5xl font-bold mb-12'>Our Team and Culture</h3>
-                    <p className='text-white text-xl p-3'>We have a diverse team of data scientists, machine learning engineers, and AI experts dedicated to staying at the cutting edge of artificial intelligence capabilities in order to best serve our clients’ needs. Innovation is at the core of our culture, and we invest heavily in R&D to push boundaries and uncover new opportunities.
+                    <h3 className='text-[#de909e] mx-auto text-3xl md:text-5xl font-bold mb-12'>Our Team and Culture</h3>
+                    <p className='text-white text-xl p-3 text-center md:text-start '>We have a diverse team of data scientists, machine learning engineers, and AI experts dedicated to staying at the cutting edge of artificial intelligence capabilities in order to best serve our clients’ needs. Innovation is at the core of our culture, and we invest heavily in R&D to push boundaries and uncover new opportunities.
                         We foster a supportive, creative environment where ideas can flourish and enable our employees to do their best work every day on behalf of our partners. Contact us today to learn more about how we can collaborate to tap into the true potential of your business data.</p>
                 </div>
             </div>
