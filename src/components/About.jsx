@@ -20,10 +20,10 @@ function About() {
             </div>
 
             {/* Our Values  */}
-            <div className='mt-36 max-w-[1000px] mx-auto'>
+            <div className='mt-36 '>
                 <h3 className='text-5xl text-[#de909e] flex justify-center items-center mb-20 font-bold'>Our Values</h3>
                 
-                <div className='grid p-3 ml-5 mr-3 grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-center'>
+                <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 justify-center items-center pl-12 ml-3 mr-3'>
                     {/* first value  */}
                     <div className=''>
                         <img src={firstValue} alt="first value" loading='lazy' className='rounded-full' />
